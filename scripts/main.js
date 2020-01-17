@@ -13,6 +13,7 @@ const randomHexaId = () => {
     let hexaLen = hexaChar.length
     let hexaId = '#'
     for (let i=0; i<6; i++) {
+        
         let hexaIdIndex = Math.floor(Math.random()*hexaLen)
         hexaId = hexaId + hexaChar[hexaIdIndex]
 
@@ -99,6 +100,8 @@ const divCreate = () => {
 const generateColors = () => {
     searchResultDiv.textContent = ''
     if ((inputValue<5) || !inputValue.match(/^[0-9]*$/)) {
+
+        stopInterval()
         errorMessage()
     }
     else {
