@@ -1,5 +1,5 @@
 # HexadecimalColorGenerator
-### Technologies used : Node.js,Express,web sockets
+### Technologies used : HTML,CSS, Javascript
 
 ###### Generating dynamic hexa colors every 2 seconds using javascript.
 ###### Validations done on the input fields.
